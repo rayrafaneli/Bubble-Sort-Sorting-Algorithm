@@ -1,7 +1,7 @@
 public class project {
     public static void main(String[] args) {
         {
-                String filePath = "C:\\Users\\<USER>\\Á10000_numbers.txt"; //Caminho do .txt
+                String filePath = "C:\\Users\\<USER>\\10000_numbers.txt"; //Caminho do .txt
                 int[] dados = BubbleSort.readDataFromFile(filePath); // Lê os dados do arquivotxt
         
                 if (dados.length > 0) {
